@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-
+import { NomePipe } from './pipes';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NomePipe
   ],
   imports: [
     BrowserModule,
